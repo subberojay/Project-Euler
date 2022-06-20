@@ -1,8 +1,7 @@
 
-filename = 'p81.txt'
+filename = 'files//p081_matrix.txt'
 
-import os
-os.chdir('C:\\Users\\Punge Bilch\\Documents\\Project Euler\\files')
+
 
 with open(filename, 'r') as f:
     matrix = (f.read()).split('\n')

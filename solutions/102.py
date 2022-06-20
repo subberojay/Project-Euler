@@ -1,8 +1,8 @@
-import os
 
-os.chdir('C:\\Users\\Punge Bilch\\Documents\\Project Euler\\files')
 
-with open('p102_triangles.txt') as triangles:
+filename = 'files/p102_triangles.txt'
+
+with open(filename) as triangles:
     count = 0
     for rows in triangles:
         coords = rows.split(',')
